@@ -1,0 +1,135 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    background-color:powderblue;
+    border: 1px soild white;
+    padding:10px;
+}
+
+.navbar .middle-navbar{
+    display:flex;
+
+}
+
+.navbar .middle-navbar .explore-btn{
+    margin-right:10px ;
+}
+
+.navbar .middle-navbar .reserve-btn{
+    margin-left:10px ;
+}
+
+.hero-content{
+    height: 50vh;
+    width: 100vw;
+    background-image: url("https://source.unsplash.com/random?beach day");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0px;
+    text-align: center
+}
+
+.hero-content .hook h2{
+    color: white;
+    text-shadow: 2px 1px 1px powderblue;
+    font-size: 5em;
+
+    margin-bottom: 25px;
+}
+
+.hero-content .hook button{
+    color: powderblue;
+    font-size: 2em;
+    border-radius: 10px;
+}
+
+.advertisment{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    color:white;
+    background-color: powderblue;
+
+}
+
+.advertisment .text-for-advertisment {
+    font-size: 2em;
+    margin-left: 30px;
+    margin-right: -50px;
+}
+
+.advertisment .credit-card-icon{
+    font-size: 4em;
+    padding: 5px 10px;
+    color: powderblue;
+    background-color: white;
+    border-radius: 10px; 
+}
+
+.main-content{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.list-of-destinations{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.list-of-destinations .right-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.list-of-destinations .middle-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.list-of-destinations .left-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content .list-of-destinations h4{
+    display:flex;
+    justify-content: center;
+    font-size: 1.2em;
+    color: powderblue;
+    background-color: white;
+    margin-top: -4px;
+    
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-start;
+    background-color: powderblue;
+
+
+}
+
+.footer .left-footer{
+    padding-left: 100px;
+    padding-right: 50px;
+    background-color: white;
+    font-size: 1.3em;
+}
+
+.footer .right-footer{
+    color: white;
+    margin-left: 20px;
+    margin-top: -8px;
+    font-size: 1.5em;
+    font-weight: auto;
+}

@@ -1,0 +1,82 @@
+@media(min-width:1200px){
+    .hero-content .hook h2{
+        font-size: 7em;
+    }
+
+    .advertisment .text-for-advertisment{
+        font-size: 3rem;
+    } 
+
+    .advertisment .credit-card-icon{
+        font-size: 4em;
+        padding: 15px 30px;
+    }
+
+    .footer .left-footer{
+        padding-left: 150px;
+        padding-right: 75px;
+        font-size: 1.7em;
+    }
+    
+    .footer .right-footer{
+        margin-left: 40px;
+        margin-top: -8px;
+        font-size: 2em;
+    }
+}
+
+
+
+@media(max-width:850px){
+    
+    .hero-content .hook h2{
+        font-size: 2.7rem;
+    }
+
+    .advertisment .text-for-advertisment{
+        font-size: 1.5rem;
+    } 
+
+    .advertisment .credit-card-icon{
+        font-size: 2em;
+        padding: 3px 5px;
+    }
+
+    .footer .left-footer{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 1rem;
+    }
+    
+    .footer .right-footer{
+        margin-left: 10px;
+        margin-top: 2px;
+        font-size: 1rem;
+    }
+
+}
+
+
+@media(max-width:620px){
+    .advertisment .text-for-advertisment{
+        font-size: 1rem;
+    } 
+
+    .advertisment .credit-card-icon{
+        font-size: 1.5em;
+        padding: 1px 3px;}
+}
+
+@media(min-width:750px){
+    .form{
+        font-size: 1.7em;
+    }
+    
+}
+
+@media(max-width:450px){
+    .form{
+        font-size: .5em;
+    }
+    
+}

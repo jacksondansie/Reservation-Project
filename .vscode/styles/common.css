@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    background-color: white;
+    border: 1px solid transparent;
+}
+
+button:hover{
+    border-color: lightslategray;
+
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.main-header .company-logo{
+    font-size: 2em;
+    padding: 10px;
+       
+}
+
+.main-header .company-name{}

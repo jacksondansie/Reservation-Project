@@ -1,0 +1,90 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    background-color:powderblue;
+    padding:10px;
+
+}
+
+.navbar .left-navbar{
+
+}
+
+.navbar .middle-navbar{
+    display:flex;
+
+}
+
+.navbar .middle-navbar .explore-btn{
+    margin-right:10px ;
+}
+
+.navbar .middle-navbar .reserve-btn{
+    margin-left:10px ;
+}
+
+.navbar .right-navbar{
+
+}
+
+.hero-content{
+    height: 50vh;
+    width: 100vw;
+    background-image: url("https://source.unsplash.com/random?beach");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0px;
+    text-align: center
+}
+
+.hero-content .hook h2{
+    color: white;
+    text-shadow: 2px 1px 1px powderblue;
+    font-size: 5em;
+
+    margin-bottom: 25px;
+}
+
+.hero-content .hook button{
+    color: powderblue;
+    font-size: 2em;
+    border-radius: 10px;
+}
+
+.form{
+    padding: 150px;
+}
+
+.form .form-travel-destination-checkboxes{
+    display:flex;
+    flex-direction: column;
+}
+
+.hero-content .form .form-trip-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-start;
+    background-color: powderblue;
+}
+
+.footer .left-footer{
+    padding-left: 100px;
+    padding-right: 50px;
+    background-color: white;
+    font-size: 1.3em;
+}
+
+.footer .right-footer{
+    color: white;
+    margin-left: 20px;
+    margin-top: -8px;
+    font-size: 1.5em;
+    font-weight: auto;
+}
